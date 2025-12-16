@@ -68,16 +68,36 @@ Program for logic gates and verify its truth table in quartus using Verilog prog
 
  Developed by: Jenoviya D
  RegisterNumber: 25014196
+
+ 
+     module exp1(a,b,c1,c2,c3,c4,c5,c6,c7); 
+     input a,b; 
+     output c1,c2,c3,c4,c5,c6,c7; 
+     not g1(c1,a); 
+     and g2(c2,a,b); 
+     or g3(c3,a,b); 
+     nand g4(c4,a,b); 
+     nor g5(c5,a,b); 
+     xor g6(c6,a,b); 
+     xnor g7(c7,a,b); 
+     endmodule
  
 **Logic symbol & Truthtable**
+![WhatsApp Image 2025-12-16 at 9 18 16 PM](https://github.com/user-attachments/assets/2c56a1c5-245c-41dc-adaa-39f1927b25ba)
+
 
 **RTL realization Output:** 
+<img width="1040" height="568" alt="Screenshot 2025-12-16 211357" src="https://github.com/user-attachments/assets/cf4ed436-1e94-475e-99e0-ff93938599c1" />
+
+
 
 **RTL**
+<img width="1037" height="569" alt="Screenshot 2025-12-16 211410" src="https://github.com/user-attachments/assets/028b9833-222e-4a64-8c81-4ab3e60feb7f" />
+
 
 **Result:**
-<img width="1919" height="1079" alt="Screenshot 2025-11-20 161046" src="https://github.com/user-attachments/assets/b6dfbcb1-3302-4ac5-9bb2-08f68f8af47f" />
-<img width="1919" height="1079" alt="Screenshot 2025-11-20 161258" src="https://github.com/user-attachments/assets/3cc46271-9c1b-49a6-8e1e-df15c2c32f2a" />
+Thus the different digital IC's are studied and the truth table for differentlogic gates are verified.
+
 
 
 
